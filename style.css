@@ -271,6 +271,13 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
+.title {
+    font-size: 22px;
+}
+.citation {
+    font-size: 20px;
+    font-style: italic;
+}
 
 .row-no-gutters {
     margin-right: 0;
@@ -675,7 +682,6 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
 p {
     font-size: 11px;
 }
@@ -683,11 +689,6 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -974,8 +975,8 @@ h4 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .bloc-xxl,
     .bloc-xl,
@@ -1030,8 +1031,8 @@ h4 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
