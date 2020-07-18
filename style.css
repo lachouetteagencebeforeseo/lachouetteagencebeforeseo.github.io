@@ -278,7 +278,11 @@ a:hover {
     font-size: 20px;
     font-style: italic;
 }
-
+.social {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -819,11 +823,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.png");
+    background-image: url("img/la chouette agence banniere.png");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image de presentation.png");
 }
 
 @media (max-width: 1024px) {
