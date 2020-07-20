@@ -689,7 +689,10 @@ a {
 p {
     font-size: 12px;
 }
-
+.mg-md {
+    font-size: 22px;
+    line-height: 1.4em;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -709,12 +712,8 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
 
-h3 {
+h2, h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
